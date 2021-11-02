@@ -1,0 +1,21 @@
+header{
+    background-color: darkblue;
+    padding: 30px 0;
+    color: white;
+}
+
+#box-left{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.col-6 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-6 ul li{
+    padding: 0 15px;
+    
+}
