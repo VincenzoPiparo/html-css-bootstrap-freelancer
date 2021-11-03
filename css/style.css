@@ -111,3 +111,33 @@ section{
     border: 1px solid white;
     border-radius: 5px;
 }
+
+/* FOOTER */
+footer{
+    color: white;
+}
+.footer-blu{
+    background-color: #3b546d;
+    padding: 35px 0;
+}
+.footer-darkblu{
+    background-color: #2d3e4f;
+    padding: 25px 0;
+}
+.footer_container{
+    text-align: center;
+}
+
+.footer_container i{
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.text-green{
+    color: #318c86;
+}
+
+.footer-darkblu{
+    text-align: center;
+}
