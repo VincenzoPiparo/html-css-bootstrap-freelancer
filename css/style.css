@@ -1,21 +1,76 @@
+/* COMMON */
 header{
     background-color: darkblue;
     padding: 30px 0;
     color: white;
 }
-
-#box-left{
+/* MY BACKGROUNDS */
+.green_background{
+    background-color: #1abc9c;
+    color: white;
+}
+/* HEADER */
+.box-left{
     font-size: 20px;
     font-weight: bold;
 }
+.box-right{
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav{
 
-.col-6 ul{
-    list-style-type: none;
-    display: flex;
     justify-content: flex-end;
 }
-
-.col-6 ul li{
+.nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+.nav ul li{
     padding: 0 15px;
-    
+}
+
+@media screen and (min-width: 576px) {
+    header {
+        height: 80px;
+    }
+}
+
+.img_box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 50px 20px;
+}
+
+/* MAIN */
+.section{
+    padding: 50px 0;
+    /* TEST */
+    background-color: blue;
+}
+.container_jumbo{
+    padding: 30px 0;
+}
+.jumbotron{
+    text-align: center;
+}
+.jumbotron h1{
+    margin: 25px 0;
+}
+.jumbotron img{
+    margin-top: 50px;
+    width: 250px;
+}
+.star{
+    padding: 10px 0;
+}
+
+/* MAIN CENTER */
+.section-center{
+    text-align: center;
+}
+.section-center h2{
+    font-size: 35px;
 }
